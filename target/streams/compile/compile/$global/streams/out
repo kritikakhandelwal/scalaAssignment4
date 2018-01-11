@@ -1,0 +1,17 @@
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/Downloads/scalaAssignment4/src/main/scala/edu/knoldus/Application.scala:20:28: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : String[0m
+[0m[[0m[31merror[0m] [0m[0m required: Int[0m
+[0m[[0m[31merror[0m] [0m[0m      case head :: Nil => (s"$operation = 1")[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/Downloads/scalaAssignment4/src/main/scala/edu/knoldus/Application.scala:21:38: (List[Int], String) does not take parameters[0m
+[0m[[0m[31merror[0m] [0m[0m      case _ => s"$operation = ${func(list, operation)}"[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/Downloads/scalaAssignment4/src/main/scala/edu/knoldus/Application.scala:34:5: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Unit[0m
+[0m[[0m[31merror[0m] [0m[0m required: Int[0m
+[0m[[0m[31merror[0m] [0m[0m    }[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/Downloads/scalaAssignment4/src/main/scala/edu/knoldus/UsingApplication.scala:25:55: not found: value func[0m
+[0m[[0m[31merror[0m] [0m[0m  val ans = obj.operateList(List(a, b, c), operation, func(List(a,b,c),operation))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
